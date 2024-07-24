@@ -1,0 +1,29 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body
+{
+    font-family:Sans-serif;
+    background-color: darkolivegreen;
+    text-align:center;
+}
+.titlebar
+{
+color:white;
+text-align:center;
+padding: 10px;
+}
+.container{
+display:flex;
+flex-wrap:wrap;
+justify-content:space-around;
+
+}
+.container div{
+    width:200px;
+    color:white;
+    margin:10px;
+    flex-basis:25%;
+   
+}

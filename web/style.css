@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+    margin-sizing:border-box;
+    cursor:pointer;
+    font-family:sans-serif;
+    background-color: black;
+}
+.body
+{
+    width: 100%;
+    min-height: 100vh;
+    
+}
+header
+{
+    display:flex;
+    justify-content:space-between;
+    padding: 15px 20px;
+    color:white;
+}
+nav li{
+    display: inline-block;
+    margin: 10px 20px;
+    font-weight:600;
+}
+.main{
+    width:100%;
+    display:flex;
+}
+.content{
+    width:50%;
+    margin-top: 8%;
+    margin-left:5%;
+    color:white;
+}
