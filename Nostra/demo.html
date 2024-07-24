@@ -1,0 +1,34 @@
+<!-- <button class="button">Count Button</button>
+<p id="count">0</p>
+
+<script>
+    const button = document.querySelector(".button");
+    const countParagraph = document.getElementById("count");
+    let count = 0;
+
+    button.addEventListener("click", function() {
+        count++;
+        countParagraph.textContent = count;
+        console.log("Button Clicked", count);
+    });
+</script> -->
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+	<title>Document</title> 
+</head> 
+
+<body> 
+	<button onclick="create()"> 
+		Click Here! 
+	</button> 
+
+	<script> 
+		function create() { 
+			let geeks = document.createElement('geeks'); 
+			geeks.textContent = "Geeksforgeeks"; 
+			document.body.appendChild(geeks); 
+		} 
+	</script> 
+</body> 
+</html>
